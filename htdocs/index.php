@@ -39,7 +39,7 @@ $request->setMethod('GET');
 $client = new Client();
 $response = $client->dispatch($request);
 $data = json_decode($response->getBody(), true);
-
+echo "Dump de consulta servicio usuarios<br/>";
 var_dump($data);
 
 
