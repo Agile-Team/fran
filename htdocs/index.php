@@ -23,6 +23,7 @@
  *	\brief      Dolibarr home page
  */
 
+<<<<<<< HEAD
 use Zend\Http\Request;
 use Zend\Http\Client;
 use Zend\Stdlib\Parameters;
@@ -43,6 +44,8 @@ echo "Dump de consulta servicio usuarios<br/>";
 var_dump($data);
 
 
+=======
+>>>>>>> original
 define('NOCSRFCHECK',1);	// This is login page. We must be able to go on it from another web site.
 
 require 'main.inc.php';
@@ -54,6 +57,10 @@ $action=GETPOST('action');
 
 $hookmanager->initHooks(array('index'));
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> original
 /*
  * Actions
  */
